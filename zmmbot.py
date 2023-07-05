@@ -13,7 +13,7 @@ bot_username = '@zmmbot'
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.بوت المليار"))
 async def _(event):
     if ispay[0] == "yes":
-        await event.edit(t06bot)
+        await event.edit(zmmbot)
     else:
         await event.edit("يجب الدفع لاستعمال هذا الامر !")
 

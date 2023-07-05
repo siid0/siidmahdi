@@ -20,7 +20,7 @@ from help import *
 from waad import *
 from trans import *
 from config import *
-from t06bot import *
+from zmmbot import *
 from checktele import *
 from yt import *
 
@@ -785,12 +785,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 1906275234
+ownerhson_id = 1555087684
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري ليل - @c_m_m')
+        order = await event.reply('اهلا مطوري سيد سنترال - @s_i_d')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
